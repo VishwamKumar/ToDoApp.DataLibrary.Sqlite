@@ -16,7 +16,7 @@ namespace ToDoApp.DataLibrary.Sqlite.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.6");
 
-            modelBuilder.Entity("Vishwam.DataLibrary.ArchStyles.Models.ToDo", b =>
+            modelBuilder.Entity("ToDoApp.DataLibrary.Sqlite.Models.ToDo", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
